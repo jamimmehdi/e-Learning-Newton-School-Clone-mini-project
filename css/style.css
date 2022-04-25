@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: DM Sans;
+    margin: 0;
+    background-color: #f6f6f9;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+.navbar-container {
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    display: flex;
+    justify-content: center;
+    z-index: 99999;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.logolink {
+    display: flex;
+}
+
+.navlogo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.logo-text a{
+    text-decoration: none;
+    color: #212121;
+}
+.logoimg {
+    padding-right: 8px;
+}
+.logo {
+    height: 34px;
+    width: auto;
+}
+
+.newton {
+    font-family: Raleway;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.school {
+    font-family: Raleway;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.menu {
+    flex: 3;
+}
+
+.menuitems {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.refer {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+
+.font-icon {
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #acabb2;
+    font-size: 1.2em;
+    
+}
+
+.notification {
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.peers {
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.icofont-ui-user-group:hover {
+    color: #1C6DD0;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.text-icon {
+    padding: 0 10px 0 10px;
+}
+
+.profile {
+    padding: 0 10px 0 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.profile-text {
+    color: #212121;
+    padding: 0 10px 0 10px;
+}
+
+.icofont-notification:hover {
+    color: #1C6DD0;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+
+.badge {
+    right: -10px;
+    top: -6px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+
+.icon-border {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: 0.5px solid #cdccd2;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+.content-area {
+    display: flex;
+    height: auto;
+}
+
+.left-panel-wrapper {
+    flex: 1;
+    padding: 30px 20px;
+    background-color: #fff;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    z-index: 1;
+    
+}
+/* ------------------------------Scrollbar Hide */
+
+.left-panel-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .left-panel-wrapper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+/* ---------------------------------------------- */
+.content-wrapper {
+    flex: 2;
+    height: auto;
+    padding: 100px 25% 100px 25%;
+    background-color: #f4f7ff;
+    width: 60%;
+    height: 2000px;
+}
+
+.right-panel-wrapper {
+    flex: 1;
+    height: auto;
+    height: 800px;
+    padding: 30px 20px;
+    background-color: #fff;
+    width: 20%;
+    position: fixed;
+    right: 0;
+    overflow: hidden;
+}
+
+.profile-wrapper {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.profile-image > img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.profile-name-user-name{
+    position: relative;
+    padding-left: 20px;
+}
+
+.profile-name{
+    font-size: 1em;
+    font-weight: 800;
+
+}
+
+.user-name {
+    position: absolute;
+    top: 35px;
+    color: #acabb2;
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+.dash1-menu-wrapper {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 30px 100px 30px;
+}
+
+.menu-option {
+    padding-left: 30px;
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #b4b4b9;
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+}
+
+.menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    /* border: 0.5px solid #cdccd2; */
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+ .active, .menu-option:hover, .menu-option-internal:hover {
+    cursor: pointer;
+    background-color: #ef954b;
+    background-image: linear-gradient(to left, #ffa156, #fc9849, #f8903d, #f5872f, #f17e20);
+    color: white !important;
+    box-shadow:
+      0 1px 1px rgba(248, 165, 0, 0.075),
+      0 2px 2px rgba(248, 165, 0, 0.075),
+      0 4px 4px rgba(248, 165, 0, 0.075),
+      0 8px 8px rgba(248, 165, 0, 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075);
+    transition: ease-in 0.2s;
+  }
+
+  .inner-wrapper {
+    /* border: 1px solid black; */
+  }
+  .tracks-title {
+      align-items: center;
+      color: #191c34;
+      font-size: 2em;
+      
+  }
+
+  .track-cards {
+      border-radius: 15px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin: 30px 0 30px 0;
+  }
+
+  .track-cards:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: ease-in 0.2s;
+  }
+
+  .track-name {
+      width: 60%;
+      font-size: 1em;
+      margin: 0 15px 0 15px;
+      font-weight: 500;
+  }
+
+  .track-start-date{
+    margin: 0 15px 0 15px;
+      width: 20%;
+      font-size: 1em;
+  }
+
+  .status{
+    margin: 0 15px 0 15px;
+    width: 10%;
+  }
+
+  .status-round-success {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 25px;
+      width: 25px;
+      background-color: #11c29b;
+      border-radius: 50%;
+      color: #fff;
+  }
+
+  .status-round-failed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    background-color: #e4001e;
+    border-radius: 50%;
+    color: #fff;
+}
+
+  #link-css:visited, #link-css:link, #link-css:active {
+      text-decoration: none;
+      color: #1C6DD0;
+  }
+/* -------------------------------------------------------------------------------------------------------- */
+.menu-option-internal {
+    padding-left: 30px;
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #b4b4b9;
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+}
+
+.menu-icon-internal{
+    font-size: 0.8em;
+    padding-right: 20px;
+}
+
+.home-page {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    color: #b4b4b9;
+}
+
+.home-page-icon {
+    margin-right: 20px;
+}

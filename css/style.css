@@ -488,12 +488,19 @@ img {
 }
 
 .u-text-2 {
+    align-items: center;
     display: flex;
     justify-content: end;
     flex: 1;
     float: right;
     padding-right: 20px;
     text-decoration: none;
+}
+
+.bi-box-arrow-right{
+    margin-left: 10px;
+    color: #1C6DD0;
+    font-weight:bolder;
 }
 
 .upcoming-assignment {
@@ -507,6 +514,67 @@ img {
     border-radius: 20px;
     padding: 10px 30px 30px 30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.assignment-video {
+    margin-right: 30px;
+    padding: 0;
+}
+
+.video-tumb {
+    position: relative;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+}
+.subject {
+    top: 5%;
+    left: 5%;
+    position:absolute;
+    
+}
+
+.subject-text {
+    background-color: #e83e8c;
+    padding: 5px;
+    font-size: 0.7em;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.play-icon {
+    top: 40%;
+    left: 45%;
+    font-size: 3em;
+    position: absolute;
+    color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.video-tumb > img {
+    border-radius: 30px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.video-title {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.instructor-details{
+    display: flex;
+    align-items: center;
+}
+
+.i-photo{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.i-name{
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #686868;
 }
 
 .as-title {

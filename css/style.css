@@ -431,15 +431,17 @@ img {
     background-color: #fff;
     border-radius: 20px;
     padding: 10px 30px 30px 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .ic-title {
     font-size: 1.5em;
-    color: #6c757d;
+    color: #686868;
     height: 100px;
 }
 
 .ic-time {
     margin-right: 10px;
+    color: #9b9b9b;
 }
 
 .join-btn {
@@ -472,6 +474,7 @@ img {
     background-color: #fff;
     border-radius: 20px;
     padding: 10px 30px 30px 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .upcoming-text {
@@ -503,16 +506,18 @@ img {
     background-color: #fff;
     border-radius: 20px;
     padding: 10px 30px 30px 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .as-title {
     font-size: 1.2em;
-    color: #6c757d;
+    color: #686868;
     height: 100px;
 }
 
 .as-time{
-    margin-right: 10px;
+    font-size: 0.9em;
+    color: #9b9b9b;
 }
 
 .start-btn{

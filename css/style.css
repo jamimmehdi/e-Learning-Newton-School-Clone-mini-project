@@ -461,8 +461,22 @@ img {
 }
 
 .upcoming-text {
+    display: flex;
     margin-top: 40px;
     font-weight: 900;
+}
+
+.u-text-1 {
+    flex: 1;
+}
+
+.u-text-2 {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
 }
 
 .upcoming-assignment {
@@ -489,12 +503,14 @@ img {
 
 .start-btn{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 130px;
     border-radius: 15px;
-    background-image: linear-gradient(to right, #bc9be8, #ad8de8, #9b7fe7, #8672e8, #6d66e8);
-    color: #fff;
+    color: #7a17eb;
+    width: fit-content;
+    font-size: 3em;
+}
+
+.start-text{
     font-size: small;
 }
+

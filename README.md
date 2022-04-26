@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://rainbow-bonbon-974525.netlify.app">
-    <img src="images/ns-logo.png" alt="Logo" width="80" height="80">
+    <img src="images/ns-logo.png" alt="Logo" width="100" height="80">
   </a>
 
   <h3 align="center">e-Learning - Newton School Clone UI</h3>

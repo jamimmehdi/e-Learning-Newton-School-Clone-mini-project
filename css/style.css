@@ -323,6 +323,7 @@ img {
       align-items: center;
       padding: 10px;
       margin: 30px 0 30px 0;
+      box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
   }
 
   .ribbon {
@@ -420,6 +421,29 @@ img {
     font-size: 2em;
 }
 
+.course-name-isa {
+    display: flex;
+}
+
+.course-name {
+    flex: 3;
+    color: #9b9b9b;
+}
+.isa-status {
+    display: flex;
+    justify-content: end;
+    flex: 2;
+    align-items: center;
+    font-size: 0.7em;
+}
+
+.isa-status-box {
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #11c29b;
+}
+
 .upcoming-classes {
     display: flex;
     padding: 10px 0;
@@ -431,7 +455,7 @@ img {
     background-color: #fff;
     border-radius: 20px;
     padding: 10px 30px 30px 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
 }
 .ic-title {
     font-size: 1.5em;
@@ -474,7 +498,7 @@ img {
     background-color: #fff;
     border-radius: 20px;
     padding: 10px 30px 30px 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
 }
 
 .upcoming-text {
@@ -513,7 +537,7 @@ img {
     background-color: #fff;
     border-radius: 20px;
     padding: 10px 30px 30px 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
 }
 
 .assignment-video {
@@ -526,6 +550,7 @@ img {
     height: 200px;
     width: 350px;
     border-radius: 20px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
 }
 .subject {
     top: 5%;
@@ -621,7 +646,7 @@ img {
     padding: 20px 20px;
     background-color: #fff;
     margin-right: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
 }
 .attendance-text {
     font-size: 0.8em;
@@ -664,7 +689,7 @@ img {
     border-radius: 20px;
     padding: 20px 20px;
     background-color: #fff;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
 }
 
 .ass-ques-text {
@@ -715,13 +740,14 @@ img {
 }
 
 .board-wrapper {
-    
+    margin-top: 30px;
 }
 
 .board-label {
     padding: 20px 30px;
     border-radius: 20px 20px 0 0 ;
     background-color: #fff;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
 }
 .board-label-text {
     display: flex;
@@ -748,6 +774,11 @@ img {
     background-color: #fff;
     padding: 10px 30px;
     font-weight: 600;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+}
+.self-active {
+    background-color: rgba(0, 149, 255, 0.2);
+    color: #007bff;
 }
 .rank-text {
     flex: 1;
@@ -810,7 +841,74 @@ img {
 .weekly {
 
 }
-  
+
+.peers-wrapper {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.peers-profile-card {
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+}
+
+.pp-name-wrapper {
+    display: flex;
+}
+.profile-pic {
+    flex: 1;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.profile-pic > img {
+    width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center right;
+}
+.name{
+    display: flex;
+    align-items: center;
+    flex: 2;
+    font-size: 1;
+    font-weight: 600;
+}
+
+.name > a:link, a:active, a:visited {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.peers-icon:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+.follow-stats {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.follow {
+    width: fit-content;
+    margin-right: 20px;
+}
+.follow-text {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
 /* ------------------------------------- */
 @property --p{
     syntax: '<number>';

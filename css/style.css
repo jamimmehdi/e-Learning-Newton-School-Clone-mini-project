@@ -713,6 +713,104 @@ img {
     color: #fff;
     border-radius: 8px;
 }
+
+.board-wrapper {
+    
+}
+
+.board-label {
+    padding: 20px 30px;
+    border-radius: 20px 20px 0 0 ;
+    background-color: #fff;
+}
+.board-label-text {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+.boardtype {
+    display: flex;
+    color: #007bff;
+    
+}
+
+.board-table {
+    margin-top: 20px;
+}
+.board-cards{
+    display: flex;
+    align-items: center;
+}
+
+.b-cards-wrapper {
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+.rank-text {
+    flex: 1;
+}
+
+.change-text {
+    flex: 1;
+}
+
+.name-text{
+    flex: 3;
+}
+
+.completed-icon {
+    flex: 1;
+}
+.tick-icon {
+    display: flex;
+    background-color: #11c29b;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 0.9em;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.activity-icon {
+    display: flex;
+    background-color: #007bff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 0.9em;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.time-icon {
+    flex: 1;
+}
+.overall-board {
+    margin-right: 40px;
+    padding: 0 0;
+    
+}
+.l-active, .overall-board > p:hover, .weekly > p:hover {
+    border-bottom: 3px solid #007bff;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+.weekly {
+
+}
+  
 /* ------------------------------------- */
 @property --p{
     syntax: '<number>';
